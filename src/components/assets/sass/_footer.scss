@@ -1,0 +1,151 @@
+.main-footer {
+    .container {
+        background-color: #fff;
+        border-radius: 10px;
+
+        footer {
+            .row {
+                .log {
+                    .link-logo {
+                        img {
+                            width: 170px;
+                            
+                        }
+                    }
+                }
+
+                .footer-two {
+                    h5 {
+                        color: #24CDD5;
+                    }
+
+                    ul {
+                        li {
+                            .forclr {
+                                color: #333;
+
+                                &:hover {
+                                    color: #24CDD5 !important;
+                                    transform: translateX(5px);
+                                    transition: 0.5s;
+                                }
+
+                                i {
+                                    font-size: 10px;
+                                    margin-right: 5px;
+                                    color: #333;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .footer-three {
+                    h5 {
+                        color: #24CDD5;
+                    }
+
+                    ul {
+                        li {
+                            p {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+
+                .form-input {
+                    form {
+                        button {
+                            max-width: 100px;
+                            background-color: #24CDD5;
+                            width: 100%;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+
+
+.bg-dark {
+    .main-footer {
+        .container {
+            background-color: #333;
+            border-radius: 10px;
+
+            footer {
+                .row {
+                    .logo {
+                        .link-logo {
+                            img {
+                                width: 200px;
+                            }
+                        }
+                    }
+
+                    .footer-two {
+                        h5 {
+                            color: #24CDD5;
+                        }
+
+                        ul {
+                            li {
+                                .forclr {
+                                    color: #fff;
+
+                                    &:hover {
+                                        color: #24CDD5 !important;
+                                        transform: translateX(5px);
+                                        transition: 0.5s;
+                                    }
+
+                                    i {
+                                        font-size: 10px;
+                                        margin-right: 5px;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .footer-three {
+                        h5 {
+                            color: #24CDD5;
+                        }
+
+                        ul {
+                            li {
+                                p {
+                                    font-size: 15px;
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+
+                    .form-input {
+                        form {
+                            h5 {
+                                color: #fff;
+                            }
+
+                            button {
+                                background-color: #24CDD5;
+                                width: 30%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .company {
+            color: #fff;
+        }
+    }
+}

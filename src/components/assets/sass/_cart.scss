@@ -1,0 +1,23 @@
+.bg-dark{
+    .total{
+        background-image: url('../img/cart/dark.jpg');
+        border-radius: 12px;
+    }
+    .totalprice{
+        button{
+            width: 15%;
+        }
+    }
+}
+
+.bg-light{
+    .total{
+        background-image: url('../img/cart/light.jpg');
+        border-radius: 12px;
+    }
+    .totalprice{
+        button{
+            width: 15%;
+        }
+    }
+}

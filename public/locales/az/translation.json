@@ -1,0 +1,62 @@
+{
+    "navbar":{
+        "1":"Ana Səhifə",
+        "2":"Haqqında",
+        "3":"Bloq",
+        "4":"Məhsullar",
+        "5":"Əlaqə"
+    },
+    "banner":{
+        "1":"HAMI ÜÇÜN GÜNDƏLİK AYAQQABILAR",
+        "2":"İndi Al"
+    },
+    "footer":{
+        "1":"Səhifələr",
+        "2":"Xəbər bülletenimizə abunə olun",
+        "3":"Abunə ol",
+        "4":"Biznes saatları",
+        "5":"Bazar ertəsi-Şənbə",
+        "6":"Cümə",
+        "7":"Bazar"
+    },
+    "login":{
+        "1":"Daxil ol"
+    },
+    "favorites":{
+        "1":"Seçilmişlər"
+    },
+    "products":{
+        "1":"Səbətə əlavə et",
+        "2":"Daha çox oxu",
+        "3":"Geri"
+    },
+    "about":{
+        "1":"Bizim filialımız",
+        "2":" Fransada 283, Avropada 320 mağazaya sahib olan şirkət artıq bir neçə ildir ki Azərbaycandadır. Şirkət aktiv və işgüzar şəhər sakinlərinə yönəlib. İdmanı və dəbi bir araya gətirərək, biz müştərilərimizə biri-birindən fərqli geyim, aksessuar və krossovka növlərini təqdim edirik. ",
+        "3":"1924dən bəri",
+        "4":"İndiyə qədər çatdıq",
+        "5":"ENDİRİMLƏRİMİZİ QAÇIRMAYIN.",
+        "6":"EKSKLÜZİV",
+        "7":"TƏKLİFLƏR & ENDİRİM",
+        "8":"İndi abunə ol"
+    },
+    "cart":{
+        "1":"Səbət",
+        "2":"Səbəti təmizlə",
+        "3":"Şəkil",
+        "4":"Ad",
+        "5":"Qiymət",
+        "6":"Say",
+        "7":"Sil",
+        "8":"Ümumi Qiymət",
+        "9":"Al"
+    },
+    "contact":{
+        "1":"BİZİMLƏ ƏLAQƏ SAXLAYIN",
+        "2":"Ad,Soyad",
+        "3":"Email Adres",
+        "4":"Mobil Nömrə",
+        "5":"Sizin Mesajınız",
+        "6":"Mesaj Göndər"
+    }
+}

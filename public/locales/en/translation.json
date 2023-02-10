@@ -1,0 +1,62 @@
+{
+    "navbar":{
+        "1":"Home",
+        "2":"About",
+        "3":"Blog",
+        "4":"Products",
+        "5":"Contact"
+    },
+    "banner":{
+        "1":"CASUAL SHOES FOR EVERYONE",
+        "2":"Buy Now"
+    },
+    "footer":{
+        "1":"Pages",
+        "2":"Subscribe to our newsletter",
+        "3":"Subscribe",
+        "4":"Business hours",
+        "5":"Monday-Saturday",
+        "6":"Friday",
+        "7":"Sunday"
+    },
+    "login":{
+        "1":"Login"
+    },
+    "favorites":{
+        "1":"Favorites"
+    },
+    "products":{
+        "1":"Add to cart",
+        "2":"Read More",
+        "3":"Back"
+    },
+    "about":{
+        "1":"Our branch",
+        "2":"The brand with 283 stores in France, 320 stores across Europe is already in Azerbaijan. Company targets at active and busy urban citizens.We bring together fashion and sports and present a wide range of sports clothing, accessories and casual sneakers for men, women and kids.",
+        "3":"Since 1924",
+        "4":"We Reached So Far",
+        "5":"DON'T MISS OUR DEALS.",
+        "6":"EXCLUSIVE",
+        "7":"OFFERS & SALE",
+        "8":"Subscribe now"
+    },
+    "cart":{
+        "1":"Cart",
+        "2":"Clear the cart",
+        "3":"Photo",
+        "4":"Name",
+        "5":"Price",
+        "6":"Quantity",
+        "7":"Delete",
+        "8":"Total Price",
+        "9":"Buy"
+    },
+    "contact":{
+        "1":"CONTACT US",
+        "2":"Name,Surname",
+        "3":"Email Adress",
+        "4":"Phone Number",
+        "5":"Your Message",
+        "6":"Send Message"
+    }
+}

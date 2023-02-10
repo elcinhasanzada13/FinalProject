@@ -1,0 +1,12 @@
+body,*{
+    font-family: "Open Sans";
+    scroll-behavior: smooth;
+}
+@import 'navbar';
+@import 'home';
+@import 'footer';
+@import 'banner';
+@import 'products';
+@import 'about';
+@import 'cart';
+@import 'contact';
