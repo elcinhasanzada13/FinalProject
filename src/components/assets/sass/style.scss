@@ -1,6 +1,7 @@
 body,*{
     font-family: "Open Sans";
     scroll-behavior: smooth;
+    list-style: none;
 }
 @import 'navbar';
 @import 'home';
@@ -10,3 +11,5 @@ body,*{
 @import 'about';
 @import 'cart';
 @import 'contact';
+@import 'shop';
+@import 'media';

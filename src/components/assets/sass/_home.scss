@@ -3,7 +3,6 @@
     height: 100vh;
     background-image: url('../img/home-banner-1.jpg');
     background-size: cover;
-
     .home-write {
         width: 40%;
         height: 100vh;
@@ -29,6 +28,24 @@
 
     }
 }
+.one-photo, .two-photo , .three-photo{
+    &:hover{
+        transform: scale(1.1);
+        transition: 1s;
+    }
+}
+.liststyle{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+.bg-dark{
+    .liststyle{
+        text-decoration: none;
+        list-style: none;
+        color: #fff;
+    }
+}
 
 .two {
     width: 100%;
@@ -42,7 +59,29 @@
     background-image: url('../img/home-banner-2.jpg');
     background-size: cover;
 }
+#btn-home{
+    width: 200px;
+    max-width: 100%;
+}
 
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    .videoes{
+        video{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            opacity: 0.6;
+        }
+    }
+}
+.soon{
+    width: 100%;
+    height: 10vh;
+    background-color: #148BFF;
+}
 
 
 

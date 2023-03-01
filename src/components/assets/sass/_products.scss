@@ -1,31 +1,71 @@
 .bg-light {
+
     .card-style {
         width: 20rem;
-
         border-radius: 20px;
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+
 
         .card-body {
             h5 {
                 color: #24CDD5;
-                font-size: 18px;
             }
-            h4{
+
+            h4 {
                 font-size: 18px;
-                color: blue;
+                font-weight: bold;
+            }
+
+            .for-title {
+                font-weight: bold;
             }
         }
-        .buttons{
-            .btn-secondary, .btn-success{
+
+        .buttons {
+
+            .btn-secondary,
+            .btn-success,
+            .btn-danger {
                 width: 300px;
                 max-width: 100%;
             }
+
+            .soon {
+                cursor: not-allowed;
+                height: 40px;
+                background-color: red;
+            }
+        }
+
+    }
+
+    .text-center {
+        .image-bg {
+            background-color: #f6f6f6;
         }
     }
 
-    .text-center{
-        .image-bg{
-            background-color: #f6f6f6;
+    .btn-back {
+        border-color: #333;
+        color: #000;
+        max-width: 100%;
+
+        &:hover {
+            color: #fff;
+            border: #333;
+            background-color: #333;
+        }
+    }
+
+    .products-search {
+        width: 400px;
+        max-width: 100%;
+    }
+
+    .button-product {
+        .button-type {
+            width: 130px;
+            max-width: 100%;
         }
     }
 }
@@ -44,27 +84,64 @@
                 color: #24CDD5;
                 font-size: 18px;
             }
-            h4{
+
+            h4 {
                 font-size: 18px;
                 color: #fff;
+                font-weight: bold;
             }
         }
-        .buttons{
-            .btn-secondary, .btn-success{
+
+        .buttons {
+
+            .btn-secondary,
+            .btn-success,
+            .btn-danger {
                 width: 300px;
                 max-width: 100%;
             }
+            .soon {
+                cursor: not-allowed;
+                height: 40px;
+                background-color: red;
+            }
         }
     }
-    .text-center{
+
+    .text-center {
         color: #fff;
-        .image-bg{
+
+        .image-bg {
             background-color: #f6f6f6;
         }
     }
-    .total{
-        h1{
+
+    .total {
+        h1 {
             color: #fff;
+        }
+    }
+
+    .btn-back {
+        border-color: #fff;
+        color: #fff;
+
+        &:hover {
+            color: #333;
+            border: #fff;
+            background-color: #fff;
+        }
+    }
+
+    .products-search {
+        width: 400px;
+        max-width: 100%;
+    }
+
+    .button-product {
+        .button-type {
+            width: 130px;
+            max-width: 100%;
         }
     }
 }

@@ -1,25 +1,68 @@
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Link, NavLink } from 'react-router-dom'
-import { useCart } from 'react-use-cart'
+import { Link, NavLink, useNavigate } from 'react-router-dom'
 import logo from '../../assets/img/a.png'
 import Lang from './Lang'
 import Mode from './Mode'
+import { useAppContext } from '../../context/appContext';
 
 const Navbar = () => {
-
-    const [mode,setMode] = useState(localStorage.getItem('mode'));
-    useEffect(()=>{
+    const {wishlist} = useAppContext();
+    const [mode, setMode] = useState(localStorage.getItem('mode'));
+    useEffect(() => {
         document.body.className = mode;
-    },[mode])
+    }, [mode])
 
-    const {t} = useTranslation()
-    const {totalItems} = useCart();
+    const { t } = useTranslation()
+    const navigate = useNavigate();
+    const handleLogoutClick = () => {
+        localStorage.clear();
+        navigate('/login')
+    };
+    const getName = localStorage.getItem('nameData');
+    const getPass = localStorage.getItem('passData');
+    const authButton = () => {
+        if (getName === null && getPass === null) {
+            return (
+                <>
+                    <Link id='login' to='/login'><i className="fa-solid fa-user me-4"></i></Link>
+                </>
+            )
+        } else {
+            return (
+                <>
+                    <div className="dropdown">
+                        <button
+                            class="btn btn-secondary dropdown-toggle me-3"
+                            type="button"
+                            id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            {getName}
+                        </button>
+                        <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
 
+                            <Link className="dropdown-item d-flex" to="/wishlist">
+                                <i class="fa-solid fa-heart"></i> {t('wishlist.3')}
+                                <div className="span">
+                                    <span className='span-wish'>{wishlist.length}</span>
+                                </div>
+                            </Link>
+                            <a className="dropdown-item" href="#!" onClick={handleLogoutClick}>
+                                <i class="fa-solid fa-arrow-right-from-bracket"></i> {t('login.6')}
+                            </a>
+                        </div>
+                    </div>
+                </>
+
+            )
+        }
+    }
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container">
-                <NavLink to="/"><img className='logos' src={logo} alt="logo"/></NavLink>
+                <NavLink to="/"><img className='logos' src={logo} alt="logo" /></NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
                 </button>
@@ -43,12 +86,11 @@ const Navbar = () => {
                     </ul>
                     <div className="d-flex pages" >
                         <Link id='search' to='/products'><i className="fa-solid fa-magnifying-glass"></i></Link>
-                        <Link id='login' to='/login'><i className="fa-solid fa-user me-4"></i></Link>
-                        <Link id='cart' to='/cart'><i className="fa-solid fa-cart-shopping me-3"><span>{totalItems}</span></i></Link>
+                        {authButton()}
                     </div>
                     <div className="d-flex lang">
-                        <Lang/>
-                        <Mode modedata={mode} setModedata={setMode}/>
+                        <Lang />
+                        <Mode modedata={mode} setModedata={setMode} />
                     </div>
                 </div>
             </div>

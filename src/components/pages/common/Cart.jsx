@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import CartAbout from '../cart/CartAbout';
+import AboutCart from '../cart/AboutCart';
 import Banner from './Banner'
 
 const Cart = () => {
@@ -9,7 +9,8 @@ const Cart = () => {
   return (
     <>
       <Banner title={t('cart.1')} />
-      <CartAbout/>
+      <AboutCart/>
+      
     </>
   )
 }

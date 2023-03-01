@@ -20,15 +20,25 @@
         "7":"Sunday"
     },
     "login":{
-        "1":"Login"
-    },
-    "favorites":{
-        "1":"Favorites"
+        "1":"Login",
+        "2":"Your Name",
+        "3":"Enter your name",
+        "4":"Password",
+        "5":"Enter password",
+        "6":"Logout"
     },
     "products":{
         "1":"Add to cart",
         "2":"Read More",
-        "3":"Back"
+        "3":"Back",
+        "4":"All",
+        "5":"Men",
+        "6":"Women",
+        "7":"Kids",
+        "8":"Search Products...",
+        "9":"Coming Soon",
+        "10":"See other products",
+        "11":"Buy now"
     },
     "about":{
         "1":"Our branch",
@@ -42,14 +52,16 @@
     },
     "cart":{
         "1":"Cart",
-        "2":"Clear the cart",
-        "3":"Photo",
-        "4":"Name",
-        "5":"Price",
-        "6":"Quantity",
-        "7":"Delete",
-        "8":"Total Price",
-        "9":"Buy"
+        "2":"Shopping cart",
+        "3":"items",
+        "4":"Summary",
+        "5":"Back to shop",
+        "6":"ITEMS",
+        "7":"SHIPPING",
+        "8":"TOTAL PRİCE",
+        "9":"Continue",
+        "10":"Shopping now",
+        "11":"Thanks for shopping"
     },
     "contact":{
         "1":"CONTACT US",
@@ -58,5 +70,40 @@
         "4":"Phone Number",
         "5":"Your Message",
         "6":"Send Message"
+    },
+    "lang":{
+        "1":"Languages"
+    },
+    "wishlist":{
+        "1":"Add to wishlist",
+        "2":"Remove from wishlist",
+        "3":"Wishlist",
+        "4":"Wishlist is empty"
+    },
+    "checkout":{
+        "1":"Checkout form",
+        "2":"Your cart",
+        "3":"Shipping",
+        "4":"Total",
+        "5":"Billing address",
+        "6":"Name",
+        "7":"Surname",
+        "8":"Address",
+        "9":"Country",
+        "10":"Choose",
+        "11":"United States",
+        "12":"Azerbaijan",
+        "13":"California",
+        "14":"Baku",
+        "15":"Save this information for next time",
+        "16":"Payment",
+        "17":"Credit card",
+        "18":"Debit card",
+        "19":"Name on card",
+        "20":"Card number",
+        "21":"Expiration",
+        "22":"Buy",
+        "23":"Thanks for shopping",
+        "24":"City"
     }
 }

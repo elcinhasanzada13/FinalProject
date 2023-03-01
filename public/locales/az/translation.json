@@ -20,15 +20,25 @@
         "7":"Bazar"
     },
     "login":{
-        "1":"Daxil ol"
-    },
-    "favorites":{
-        "1":"Seçilmişlər"
+        "1":"Daxil ol",
+        "2":"Adınız",
+        "3":"Adınızı daxil edin",
+        "4":"Şifrə",
+        "5":"Şifrəni daxil edin",
+        "6":"Çıxış"
     },
     "products":{
         "1":"Səbətə əlavə et",
         "2":"Daha çox oxu",
-        "3":"Geri"
+        "3":"Geri",
+        "4":"Hamısı",
+        "5":"Kişilər",
+        "6":"Qadınlar",
+        "7":"Uşaqlar",
+        "8":"Məhsul Axtar...",
+        "9":"Tezliklə",
+        "10":"Digər məhsullara baxın",
+        "11":"İndi al"
     },
     "about":{
         "1":"Bizim filialımız",
@@ -42,14 +52,15 @@
     },
     "cart":{
         "1":"Səbət",
-        "2":"Səbəti təmizlə",
-        "3":"Şəkil",
-        "4":"Ad",
-        "5":"Qiymət",
-        "6":"Say",
-        "7":"Sil",
-        "8":"Ümumi Qiymət",
-        "9":"Al"
+        "2":"Alış-veriş səbəti",
+        "3":"əşya",
+        "4":"Yekun",
+        "5":"Mağazaya geri qayıt",
+        "6":"ƏŞYA",
+        "7":"DAŞINMA",
+        "8":"ÜMUMİ QİYMƏT",
+        "9":"Davam edin",
+        "10":"İndi alış-veriş et"
     },
     "contact":{
         "1":"BİZİMLƏ ƏLAQƏ SAXLAYIN",
@@ -58,5 +69,40 @@
         "4":"Mobil Nömrə",
         "5":"Sizin Mesajınız",
         "6":"Mesaj Göndər"
+    },
+    "lang":{
+        "1":"Dillər"
+    },
+    "wishlist":{
+        "1":"İstək siyahısına əlavə edin",
+        "2":"İstək siyahısından silin",
+        "3":"İstək siyahısı",
+        "4":"İstək siyahısı boşdur"
+    },
+    "checkout":{
+        "1":"Ödəniş forması",
+        "2":"Səbətiniz",
+        "3":"Daşınma",
+        "4":"Ümumi",
+        "5":"Faktiki ünvan",
+        "6":"Ad",
+        "7":"Soyad",
+        "8":"Ünvan",
+        "9":"Ölkə",
+        "10":"Seçin",
+        "11":"Amerika Birləşmiş Ştatları",
+        "12":"Azərbaycan",
+        "13":"Kaliforniya",
+        "14":"Bakı",
+        "15":"Bu məlumatı növbəti dəfə yadda saxla",
+        "16":"Ödəniş",
+        "17":"Kredit kartı",
+        "18":"Debet kartı",
+        "19":"Kart üzərindəki ad",
+        "20":"Kart nömrəsi",
+        "21":"İstifadə müddəti",
+        "22":"Almaq",
+        "23":"Alış-veriş üçün təşəkkür edirik",
+        "24":"Şəhər"
     }
 }

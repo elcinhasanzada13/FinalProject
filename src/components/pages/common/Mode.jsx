@@ -8,7 +8,7 @@ const Mode = ({modedata,setModedata}) => {
 
   return (
     <div>
-        <button onClick={setColor} className='mode ms-2'>{modedata === "bg-light"?"☀️":"🌙"}</button>
+        <button onClick={setColor} className='mode ms-2'>{modedata === "bg-light"?"🌙":"☀️"}</button>
     </div>
   )
 }

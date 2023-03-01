@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import LoginPage from '../login/LoginPage';
 import Banner from './Banner'
 
 const Login = () => {
@@ -7,6 +8,7 @@ const Login = () => {
   return (
     <>
     <Banner  title={t('login.1')}/>
+    <LoginPage/>
     </>
   )
 }
