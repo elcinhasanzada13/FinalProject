@@ -12,7 +12,7 @@ const ProductsDetails = () => {
   const { addItem } = useCart();
   const notify = () => toast("Add to card!");
 
-  const detailItems = dataproducts.find(p => p.id == id);
+  const detailItems = dataproducts.find(p => p.id === id); 
 
   return (
     <>
