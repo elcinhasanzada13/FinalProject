@@ -15,6 +15,7 @@ import Products from '../pages/Products'
 import Shop from '../pages/common/Shop'
 import AppContextProvider from '../context/appContext'
 import Checkout from '../pages/cart/Checkout'
+import NotFoundPage from '../pages/common/NotFoundPage'
 
 const AppRouter = () => {
     return (
@@ -34,6 +35,7 @@ const AppRouter = () => {
                         <Route path='/products/:id' element={<ProductsDetails />}></Route>
                         <Route path='/wishlist' element={<Wishlist />}></Route>
                         <Route path='/checkout' element={<Checkout/>}></Route>
+                        <Route path='*' element={<NotFoundPage/>}></Route>
                     </Routes>
                     <Footer />
                 </CartProvider>

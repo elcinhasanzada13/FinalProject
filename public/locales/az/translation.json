@@ -104,5 +104,11 @@
         "22":"Almaq",
         "23":"Alış-veriş üçün təşəkkür edirik",
         "24":"Şəhər"
+    },
+    "not":{
+        "1":"Ups!",
+        "2":"Səhifə tapılmadı.",
+        "3":"Axtardığınız səhifə mövcud deyil.",
+        "4":"Ana səhifəyə get"
     }
 }

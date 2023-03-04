@@ -63,27 +63,27 @@ const Checkout = () => {
               </ul>
             </div>
             <div className="col-md-7 col-lg-8">
-              <h4 className="mb-3">{t('checkout.5')}</h4>
+              <h4 className="mb-3 liststyle">{t('checkout.5')}</h4>
               <form className="needs-validation" noValidate>
                 <div className="row g-3">
                   <div className="col-sm-6">
-                    <label htmlFor="firstName" className="form-label">{t('checkout.6')}</label>
-                    <input type="text" className="form-control" id="firstName" placeholder={t('checkout.6')} />
+                    <label htmlFor="firstName" className="form-label liststyle">{t('checkout.6')}</label>
+                    <input type="text" className="form-control" id="firstName" required placeholder={t('checkout.6')} />
                   </div>
                   <div className="col-sm-6">
-                    <label htmlFor="lastName" className="form-label">{t('checkout.7')}</label>
-                    <input type="text" className="form-control" id="lastName" placeholder={t('checkout.7')} />
+                    <label htmlFor="lastName" className="form-label liststyle">{t('checkout.7')}</label>
+                    <input type="text" className="form-control" id="lastName" required placeholder={t('checkout.7')} />
                   </div>
                   <div className="col-12">
-                    <label htmlFor="email" className="form-label">Email</label>
-                    <input type="email" className="form-control" id="email" placeholder="you@example.com" />
+                    <label htmlFor="email" className="form-label liststyle">Email</label>
+                    <input type="email" className="form-control" id="email" required placeholder="you@example.com" />
                   </div>
                   <div className="col-12">
-                    <label htmlFor="address" className="form-label">{t('checkout.8')}</label>
-                    <input type="text" className="form-control" id="address" placeholder="1234 Main St" />
+                    <label htmlFor="address" className="form-label liststyle">{t('checkout.8')}</label>
+                    <input type="text" className="form-control" id="address"  required placeholder="1234 Main St" />
                   </div>
                   <div className="col-md-5">
-                    <label htmlFor="country" className="form-label">{t('checkout.9')}</label>
+                    <label htmlFor="country" className="form-label liststyle">{t('checkout.9')} </label>
                     <select className="form-select" id="country" required>
                       <option value>{t('checkout.10')}...</option>
                       <option>{t('checkout.11')}</option>
@@ -91,7 +91,7 @@ const Checkout = () => {
                     </select>
                   </div>
                   <div className="col-md-4">
-                    <label htmlFor="state" className="form-label">{t('checkout.24')}</label>
+                    <label htmlFor="state" className="form-label liststyle">{t('checkout.24')}</label>
                     <select className="form-select" id="state" required>
                       <option value>{t('checkout.10')}...</option>
                       <option>{t('checkout.13')}</option>
@@ -99,46 +99,46 @@ const Checkout = () => {
                     </select>
                   </div>
                   <div className="col-md-3">
-                    <label htmlFor="zip" className="form-label">Zip</label>
+                    <label htmlFor="zip" className="form-label liststyle">Zip</label>
                     <input type="text" className="form-control" id="zip" placeholder aria-required />
                   </div>
                 </div>
-                <hr className="my-4" />
+                <hr className="my-4 liststyle" />
                 <div className="form-check">
-                  <input type="checkbox" className="form-check-input" id="save-info" />
-                  <label className="form-check-label" htmlFor="save-info">{t('checkout.15')}</label>
+                  <input type="checkbox" className="form-check-input " id="save-info" />
+                  <label className="form-check-label liststyle" htmlFor="save-info">{t('checkout.15')}</label>
                 </div>
-                <hr className="my-4" />
-                <h4 className="mb-3">{t('checkout.16')}</h4>
+                <hr className="my-4 liststyle" />
+                <h4 className="mb-3 liststyle">{t('checkout.16')}</h4>
                 <div className="my-3">
                   <div className="form-check">
-                    <input id="credit" name="paymentMethod" type="radio" className="form-check-input" defaultChecked required />
-                    <label className="form-check-label" htmlFor="credit">{t('checkout.17')}</label>
+                    <input id="credit" name="paymentMethod" type="radio" className="form-check-input " defaultChecked required />
+                    <label className="form-check-label liststyle" htmlFor="credit">{t('checkout.17')}</label>
                   </div>
                   <div className="form-check">
                     <input id="debit" name="paymentMethod" type="radio" className="form-check-input" required />
-                    <label className="form-check-label" htmlFor="debit">{t('checkout.18')}</label>
+                    <label className="form-check-label liststyle" htmlFor="debit">{t('checkout.18')}</label>
                   </div>
                   <div className="form-check">
                     <input id="paypal" name="paymentMethod" type="radio" className="form-check-input" required />
-                    <label className="form-check-label" htmlFor="paypal">PayPal</label>
+                    <label className="form-check-label liststyle" htmlFor="paypal">PayPal</label>
                   </div>
                 </div>
                 <div className="row gy-3">
                   <div className="col-md-6">
-                    <label htmlFor="cc-name" className="form-label">{t('checkout.19')}</label>
+                    <label htmlFor="cc-name" className="form-label liststyle">{t('checkout.19')}</label>
                     <input type="text" className="form-control" id="cc-name" placeholder required />
                   </div>
                   <div className="col-md-6">
-                    <label htmlFor="cc-number" className="form-label">{t('checkout.20')}</label>
+                    <label htmlFor="cc-number" className="form-label liststyle">{t('checkout.20')}</label>
                     <input type="text" className="form-control" id="cc-number" placeholder required />
                   </div>
                   <div className="col-md-3">
-                    <label htmlFor="cc-expiration" className="form-label">{t('checkout.21')}</label>
+                    <label htmlFor="cc-expiration" className="form-label liststyle">{t('checkout.21')}</label>
                     <input type="text" className="form-control" id="cc-expiration" placeholder required />
                   </div>
                   <div className="col-md-3">
-                    <label htmlFor="cc-cvv" className="form-label">CVV</label>
+                    <label htmlFor="cc-cvv" className="form-label liststyle">CVV</label>
                     <input type="text" className="form-control" id="cc-cvv" placeholder required />
                   </div>
                 </div>

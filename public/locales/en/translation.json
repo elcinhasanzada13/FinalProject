@@ -105,5 +105,11 @@
         "22":"Buy",
         "23":"Thanks for shopping",
         "24":"City"
+    },
+    "not":{
+        "1":"Oops!",
+        "2":"Page not found.",
+        "3":"The page you’re looking for doesn’t exist.",
+        "4":"Go home"
     }
 }
